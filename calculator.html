@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="displey">
+            <input type="text" placeholder="0" disabled id="txtDisplay">
+        </div>
+        <div>
+            <button onclick="chek(this.innerHTML)">AC</button>
+            <button onclick="chek(this.innerHTML)" disabled>DEL</button>
+            <button onclick="chek(this.innerHTML)" disabled>%</button>
+            <button onclick="chek(this.innerHTML)">+</button>
+        </div>
+        <div>
+            <button onclick="chek(this.innerHTML)">7</button>
+            <button onclick="chek(this.innerHTML)">8</button>
+            <button onclick="chek(this.innerHTML)">9</button>
+            <button onclick="chek(this.innerHTML)">-</button>
+        </div>
+        <div>
+            <button onclick="chek(this.innerHTML)">4</button>
+            <button onclick="chek(this.innerHTML)">5</button>
+            <button onclick="chek(this.innerHTML)">6</button>
+            <button onclick="chek(this.innerHTML)">*</button>
+        </div>
+        <div>
+            <button onclick="chek(this.innerHTML)">1</button>
+            <button onclick="chek(this.innerHTML)">2</button>
+            <button onclick="chek(this.innerHTML)">3</button>
+            <button onclick="chek(this.innerHTML)">/</button>
+        </div>
+        <div>
+            <button onclick="chek(this.innerHTML)">00</button>
+            <button onclick="chek(this.innerHTML)">0</button>
+            <button onclick="chek(this.innerHTML)">.</button>
+            <button onclick="chek(this.innerHTML)">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

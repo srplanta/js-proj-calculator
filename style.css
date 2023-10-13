@@ -1,0 +1,77 @@
+@font-face {
+    font-family: poppins;
+    src: url("fonts/Poppins-Bold.ttf");
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    border-radius: 16px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 5px 5px 15px #3a4c52;
+    margin: 20px;
+}
+
+.displey{
+    display: flex;
+    width: 98%;
+}
+.calculator input[type="text"] {
+    color: #000;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    font-size: 2em;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 10px;
+    /* width: 90%; */
+    width: 98%;
+}
+
+.calculator input[type="text"]::placeholder {
+    color: #000;
+}
+
+/* .calculator label {
+    color: #000;
+    background-color: whitesmoke;
+    margin: 5px;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 8%;
+} */
+
+.calculator button {
+    width: 22%;
+    height: 3em;
+    border-radius: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.calculator button:hover {
+    color: whitesmoke;
+    background-color: #353c46;
+}
